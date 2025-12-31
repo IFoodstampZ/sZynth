@@ -13,6 +13,8 @@ include(PamplejuceMacOS)
 # Couple tweaks that IMO should be JUCE defaults
 include(JUCEDefaults)
 
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
 # Change me!
 # This is the internal name of the project and the name of JUCE's shared code target
 # Note: This cannot have spaces (it may be 2024, but you can't have it all!)
